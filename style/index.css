@@ -1,0 +1,15 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+:root {
+	--main-color: #19345e;
+	--secondary-color: #f47522;
+}
+
+.nav-btn {
+	color: orange;
+}
+.nav-btn:hover {
+	background-color: orange;
+	color: #fff;
+}
