@@ -17,6 +17,10 @@
 	src: url(/font/muli.regular.ttf);
 }
 
+span {
+	color: var(--secondary-color);
+}
+
 .active-link {
 	color: var(--secondary-color);
 }

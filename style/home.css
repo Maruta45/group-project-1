@@ -1,1 +1,115 @@
 /** @format */
+main {
+	padding: 13vh 0;
+}
+.sport2 {
+	display: none;
+}
+.team-button {
+	background-color: var(--secondary-color);
+	color: #fff;
+	width: 40%;
+	transition: all 0.5s linear;
+}
+.team-button:hover {
+	background-color: #fff;
+	color: var(--secondary-color);
+}
+
+.hero {
+	background-image: linear-gradient(rgba(0, 29, 123, 0.353), rgba(0, 29, 123, 0.353)), url(/assets/bg-people@2x.png);
+	width: 100%;
+	height: 70vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hero-text-container h1 {
+	font-family: "Muli";
+	font-size: 3.2rem;
+	font-weight: bold;
+}
+.hero-text-container p {
+	font-family: "Muli";
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.heading h1 {
+	font-family: "muli";
+	color: var(--main-color);
+	font-weight: bold;
+	font-size: 3.3rem;
+}
+.heading h1::before {
+	content: "-";
+	color: var(--secondary-color);
+	padding-right: 20px;
+}
+.heading h1::after {
+	content: "-";
+	color: var(--secondary-color);
+	padding-left: 20px;
+}
+.heading p {
+	font-family: "Muli";
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: var(--main-color);
+}
+
+@media (max-width: 991px) {
+	.team-button {
+		width: 50vw;
+	}
+
+	.main-img-container {
+		text-align: center;
+		margin-top: 5vh;
+	}
+	.main-img-container img {
+		width: 400px;
+		height: 400px;
+	}
+	.main-desc {
+		margin-top: 10vh;
+		margin-bottom: 5vh;
+	}
+	.hero-text-container h1 {
+		font-size: 1.8rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.heading h1 {
+		font-size: 1.7rem;
+	}
+	.heading p {
+		font-size: 0.7rem;
+	}
+
+	.team-button p {
+		font-size: 0.7rem;
+	}
+	.sport1 {
+		width: 14px;
+		height: 14px;
+	}
+
+	.main-img-container img {
+		height: 250px;
+		width: 250px;
+	}
+
+	.hero-text-container {
+		width: 90% !important;
+	}
+	.hero-text-container h1 {
+		font-size: 1.3rem;
+		margin-bottom: 5vh;
+	}
+	.hero-text-container p {
+		font-size: 0.7rem;
+	}
+}
