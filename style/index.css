@@ -67,6 +67,9 @@ span {
 .nav-link:hover {
 	color: var(--secondary-color);
 }
+.nav-link p {
+	margin-bottom: 0;
+}
 
 .footer-container {
 	background-color: var(--main-color);
@@ -89,6 +92,13 @@ span {
 }
 
 @media (max-width: 991px) {
+	.navbar-toggler {
+		margin-right: 5vw;
+	}
+	.navbar-nav {
+		margin-left: 6vw !important;
+		margin-top: 3vh;
+	}
 	.contact-button {
 		display: none;
 	}
@@ -100,19 +110,21 @@ span {
 		margin-bottom: 3vh;
 	}
 	.nav-item {
-		width: 20vw;
-		margin-left: 6vw;
-		margin-right: 0 !important;
+		border-top: 1px solid #aaa;
+		width: 82vw;
 	}
-	.icon {
-		width: 5vw;
+	.nav-item:hover {
+		background-color: rgb(247, 245, 245);
 	}
 	.nav-item i {
 		display: inline;
+		margin-left: 10px;
 	}
-	.nav-item a {
-		text-align: left;
-		margin-left: 20px;
+	.nav-link {
+		width: 100%;
+	}
+	.nav-link p {
+		padding-left: 3vw;
 	}
 	.contact-button {
 		width: 80vw;
