@@ -50,6 +50,29 @@ main {
 	display: inline;
 }
 
+.icon-skills {
+	background-color: var(--secondary-color);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.skill-desc h3 {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.2rem;
+	color: var(--main-color);
+	font-weight: bold;
+}
+.skill-desc p {
+	font-family: "Muli", sans-serif;
+	font-size: 1rem;
+	color: var(--main-color);
+}
+
+.skill-mid {
+	border-left: 1px solid rgb(230, 230, 230);
+	border-right: 1px solid rgb(230, 230, 230);
+}
+
 .hero {
 	background-image: linear-gradient(rgba(0, 29, 123, 0.353), rgba(0, 29, 123, 0.353)), url(/assets/bg-people@2x.png);
 	width: 100%;
@@ -93,9 +116,52 @@ main {
 	color: var(--main-color);
 }
 
+.card-title {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: var(--main-color);
+}
+.card-subtitle {
+	font-family: "Poppins", sans-serif;
+	font-size: 0.9rem;
+}
+.card-text {
+	font-family: "Poppins", sans-serif;
+	font-size: 0.9rem;
+	color: var(--main-color);
+}
+.card-link {
+	font-family: "Poppins", sans-serif;
+	transition: all 0.3s linear;
+}
+.card-link:hover {
+	color: var(--secondary-color);
+}
+
 @media (max-width: 991px) {
 	.team-button {
 		width: 50vw;
+	}
+
+	.skill-container {
+		border-radius: unset !important;
+		border: 1px solid rgb(230, 230, 230);
+		margin-top: 8vh;
+	}
+	.skill-mid {
+		border-left: 0;
+		border-right: 0;
+		border-top: 1px solid rgb(230, 230, 230);
+		border-bottom: 1px solid rgb(230, 230, 230);
+		padding-top: 3vh;
+	}
+	.skill-list {
+		justify-content: left !important;
+		padding-left: 5vw;
+	}
+	.skill-list:nth-child(3) {
+		padding-top: 3vh;
 	}
 
 	.main-img-container {
