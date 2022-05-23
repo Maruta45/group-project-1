@@ -93,27 +93,61 @@ main {
 	font-weight: bold;
 }
 
-.heading h1 {
-	font-family: "muli";
-	color: var(--main-color);
+section > .container-fluid {
+	background-image: url(/assets/ornament_batik.png);
+	background-size: 200px;
+	background-repeat: no-repeat;
+}
+
+.box {
+	position: relative;
+	width: 250px;
+	height: 300px;
+}
+.box img {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	object-fit: cover;
+}
+
+.box-outer-orange {
+	width: 250px;
+	height: 300px;
+	position: absolute;
+	border: 9px solid var(--secondary-color);
+	background-color: none;
+	top: 15px;
+	right: 15px;
+}
+.box-outer-blue {
+	width: 250px;
+	height: 300px;
+	position: absolute;
+	border: 9px solid var(--main-color);
+	background-color: none;
+	top: 15px;
+	right: 15px;
+}
+
+.profile-name h3 {
+	font-family: "Roboto", sans-serif;
 	font-weight: bold;
-	font-size: 3.3rem;
-}
-.heading h1::before {
-	content: "-";
 	color: var(--secondary-color);
-	padding-right: 20px;
+	font-size: 1.5rem;
 }
-.heading h1::after {
-	content: "-";
-	color: var(--secondary-color);
-	padding-left: 20px;
-}
-.heading p {
-	font-family: "Muli";
-	font-size: 1.3rem;
-	font-weight: bold;
+.profile-name p {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.2rem;
 	color: var(--main-color);
+}
+.profile-link a {
+	transition: all 0.3s linear;
+	font-family: "Muli", sans-serif;
+	color: var(--main-color);
+}
+.profile-link a:hover {
+	color: var(--secondary-color);
 }
 
 .card-title {
@@ -139,7 +173,7 @@ main {
 	color: var(--secondary-color);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
 	.team-button {
 		width: 50vw;
 	}
@@ -148,6 +182,9 @@ main {
 		border-radius: unset !important;
 		border: 1px solid rgb(230, 230, 230);
 		margin-top: 8vh;
+	}
+	.skill-container .row {
+		padding: 0 !important;
 	}
 	.skill-mid {
 		border-left: 0;
@@ -160,8 +197,14 @@ main {
 		justify-content: left !important;
 		padding-left: 5vw;
 	}
+	.skill-list:nth-child(1) {
+		padding-top: 3vh;
+	}
 	.skill-list:nth-child(3) {
 		padding-top: 3vh;
+	}
+	.skill-list:hover {
+		background-color: rgb(230, 230, 230);
 	}
 
 	.main-img-container {
@@ -179,16 +222,13 @@ main {
 	.hero-text-container h1 {
 		font-size: 1.8rem;
 	}
+
+	.profile-middle {
+		margin: 48px 0;
+	}
 }
 
 @media (max-width: 576px) {
-	.heading h1 {
-		font-size: 1.7rem;
-	}
-	.heading p {
-		font-size: 0.7rem;
-	}
-
 	.team-button {
 		width: 85vw;
 	}

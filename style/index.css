@@ -64,9 +64,6 @@ span {
 	color: #fff;
 }
 
-.contact-btn2 a p {
-	display: none;
-}
 .contact-button {
 	padding: 0 8vw 0 4vw;
 }
@@ -125,8 +122,8 @@ span {
 	.contact-button {
 		display: none;
 	}
-	.contact-btn2 a p {
-		display: inline;
+	.contact-btn2 {
+		display: inline !important;
 	}
 
 	#nav-link-container {
