@@ -21,6 +21,29 @@ span {
 	color: var(--secondary-color);
 }
 
+.heading h1 {
+	font-family: "muli";
+	color: var(--main-color);
+	font-weight: bold;
+	font-size: 3.3rem;
+}
+.heading h1::before {
+	content: "-";
+	color: var(--secondary-color);
+	padding-right: 20px;
+}
+.heading h1::after {
+	content: "-";
+	color: var(--secondary-color);
+	padding-left: 20px;
+}
+.heading p {
+	font-family: "Muli";
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: var(--main-color);
+}
+
 .active-link {
 	color: var(--secondary-color);
 }
@@ -128,5 +151,14 @@ span {
 	}
 	.contact-button {
 		width: 80vw;
+	}
+}
+
+@media (max-width: 576px) {
+	.heading h1 {
+		font-size: 1.7rem;
+	}
+	.heading p {
+		font-size: 0.7rem;
 	}
 }
