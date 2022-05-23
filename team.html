@@ -5,35 +5,53 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Home</title>
+		<title>Team</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 		<link rel="stylesheet" href="/style/index.css" />
 		<link rel="stylesheet" href="/style/team.css" />
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
 			<div class="container-fluid d-flex">
-				<a class="navbar-brand" href="/html/home.html" style="padding-left: 7%"><img src="../assets/logo-ALTA@2x.png" alt="brand" width="133" height="66" /></a>
+				<a class="navbar-brand" href="home.html" style="padding-left: 7%"><img src="../assets/logo-ALTA@2x.png" alt="brand" width="133" height="66" /></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav ms-auto" id="nav-link-container" style="padding-right: 7%">
-						<li class="nav-item">
-							<a class="nav-link fw-bold" href="home.html">Home</a>
+					<ul class="navbar-nav ms-auto" id="nav-link-container">
+						<li class="nav-item d-flex align-items-center">
+							<a class="nav-link fw-bold d-flex" href="home.html">
+								<i class="fa-solid fa-house"></i>
+								<p>Home</p>
+							</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link fw-bold" href="#">About</a>
+						<li class="nav-item d-flex align-items-center">
+							<a class="nav-link fw-bold d-flex" href="#">
+								<i class="fa-solid fa-circle-info"></i>
+								<p>About</p>
+							</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link fw-bold active-link" href="#">Team</a>
+						<li class="nav-item d-flex align-items-center">
+							<a class="nav-link fw-bold active-link d-flex" href="team.html">
+								<i class="fa-brands fa-teamspeak"></i>
+								<p>Team</p>
+							</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link fw-bold" href="blog.html">Blog</a>
+						<li class="nav-item d-flex align-items-center">
+							<a class="nav-link fw-bold d-flex" href="blog.html">
+								<i class="fa-brands fa-blogger"></i>
+								<p>Blog</p>
+							</a>
 						</li>
-						<li class="nav-item contact-button ps-3">
-							<a class="nav-link fw-bold px-4 text-center" href="contact.html">Contact</a>
+						<li class="nav-item d-flex align-items-center contact-btn2">
+							<a class="nav-link fw-bold d-flex" href="contact.html">
+								<i class="fa-solid fa-phone"></i>
+								<p>Contact</p>
+							</a>
+						</li>
+						<li class="nav-item contact-button">
+							<a class="nav-link fw-bold px-5 shadow-sm text-center" href="contact.html">Contact</a>
 						</li>
 					</ul>
 				</div>

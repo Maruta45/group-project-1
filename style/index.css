@@ -41,7 +41,7 @@ span {
 	color: #fff;
 }
 
-.contact-btn2 a {
+.contact-btn2 a p {
 	display: none;
 }
 .contact-button {
@@ -102,7 +102,7 @@ span {
 	.contact-button {
 		display: none;
 	}
-	.contact-btn2 a {
+	.contact-btn2 a p {
 		display: inline;
 	}
 
