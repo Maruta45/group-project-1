@@ -1,14 +1,22 @@
+/** @format */
+
 .btn-send {
-    background-color: #F47522;
-    color: #fff;
+	background-color: #f47522;
+	color: #fff;
 }
 .btn-send:hover > .send-mail {
-    display: none;
+	display: none;
 }
 .btn-send:hover > .send-mail-hover {
-    display: inline !important;
+	display: inline !important;
 }
 .btn-send:hover {
-    background-color: #fff;
-    color: #F47522;
+	background-color: #fff;
+	color: #f47522;
+}
+
+@media (max-width: 576px) {
+	.form-container {
+		height: 120vh !important;
+	}
 }
