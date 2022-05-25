@@ -3,6 +3,7 @@
 .btn-send {
 	background-color: #f47522;
 	color: #fff;
+	transition: all 0.3s linear;
 }
 .btn-send:hover > .send-mail {
 	display: none;
@@ -15,8 +16,32 @@
 	color: #f47522;
 }
 
+form p {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.1rem;
+}
+.form-label,
+.form-control {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.1rem;
+}
+
+textarea {
+	resize: none;
+}
+
+@media (max-width: 768px) {
+	.form-container {
+		margin-bottom: 40vh;
+	}
+}
+
 @media (max-width: 576px) {
 	.form-container {
 		height: 120vh !important;
+		margin-bottom: 15vh;
+	}
+	.btn-send {
+		width: 100% !important;
 	}
 }

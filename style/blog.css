@@ -13,10 +13,16 @@
 	font-size: 1.2rem;
 	color: #19345e;
 	font-weight: bold;
+	font-family: "Poppins", sans-serif;
 }
 
 .class-text * {
 	color: #19345e;
+}
+
+.author {
+	font-family: "Muli", sans-serif;
+	font-size: 1.5rem;
 }
 
 @media (max-width: 576px) {
