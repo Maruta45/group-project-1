@@ -9,13 +9,24 @@
 	background-size: cover;
 }
 
-.text-isi{
+.text-isi {
 	font-size: 1.2rem;
-	color: #19345E;
+	color: #19345e;
 	font-weight: bold;
 }
 
-.class-text *{
-	color: #19345E;
+.class-text * {
+	color: #19345e;
+}
 
+@media (max-width: 576px) {
+	.heading-content {
+		font-size: 2rem !important;
+	}
+	.author {
+		font-size: 1rem;
+	}
+	.text-isi {
+		font-size: 0.8rem;
+	}
 }
