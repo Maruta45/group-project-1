@@ -16,6 +16,10 @@
 	font-family: "Muli";
 	src: url(/font/muli.regular.ttf);
 }
+@font-face {
+	font-family: "SFCompactDisplay";
+	src: url(/font//FontsFree-Net-SFCompactDisplay-Regular.ttf);
+}
 
 span {
 	color: var(--secondary-color);

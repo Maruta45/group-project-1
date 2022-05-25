@@ -1,0 +1,170 @@
+/** @format */
+
+.image-container {
+	background-image: url(/assets/ornament_batik.png);
+	background-size: 220px;
+	background-repeat: no-repeat;
+	background-position: bottom left !important;
+	display: flex;
+	justify-content: center;
+	height: 70vh !important;
+}
+
+.main-right {
+	height: 60vh;
+	padding: 0;
+}
+
+.section-text,
+.superiority-text,
+.our-team-text {
+	height: 100%;
+}
+
+.main-text h1,
+.section-text h1,
+.superiority-text h1,
+.our-team-text h1 {
+	font-family: "Muli", sans-serif;
+	font-size: 2.2rem;
+	font-weight: bold;
+	color: var(--main-color);
+}
+.main-text p,
+.section-text p,
+.superiority-text p,
+.our-team-text p {
+	font-family: "SFCompactDisplay";
+	font-size: 0.9rem;
+	color: var(--main-color);
+}
+
+.image-container .image img,
+.section-image img,
+.superiority-image img,
+.our-team-image img {
+	width: 400px;
+}
+
+.get-started-button {
+	background-color: var(--secondary-color);
+	color: #fff;
+	width: 250px;
+	transition: all 0.3s linear;
+}
+.get-started-button:hover {
+	background-color: #fff;
+	color: var(--secondary-color);
+}
+
+@media (max-width: 576px) {
+	.main-right {
+		align-items: center;
+	}
+	.main-right,
+	.image-container {
+		height: 20vh !important;
+	}
+
+	section .container-fluid {
+		height: 100vh !important;
+	}
+	.superiority-container {
+		height: 90vh !important;
+	}
+	.our-team-container {
+		height: 90vh !important;
+	}
+
+	.image-container .image img,
+	.section-image img,
+	.superiority-image img,
+	.our-team-image img {
+		width: 250px;
+		height: 250px;
+	}
+
+	.container-fluid .container .row .col-md-6 {
+		margin: 0 !important;
+		padding: 0 !important;
+		height: 40vh;
+	}
+	.superiority-text,
+	.our-team-text {
+		margin: 0 !important;
+	}
+
+	.main-text h1,
+	.section-text h1,
+	.superiority-text h1 {
+		font-family: "Muli", sans-serif;
+		font-size: 1.5rem;
+		font-weight: bold;
+		color: var(--main-color);
+	}
+	.main-text p,
+	.section-text p,
+	.superiority-text p {
+		font-family: "SFCompactDisplay";
+		font-size: 0.9rem;
+		color: var(--main-color);
+	}
+
+	.get-started-button {
+		width: 50vw !important;
+	}
+}
+
+@media (max-width: 768px) {
+	section .container-fluid {
+		height: 140vh;
+	}
+
+	.our-team-container {
+		height: 100vh;
+	}
+	.superiority-container {
+		height: 110vh;
+	}
+	.image-container {
+		background-image: none;
+	}
+	.main-row {
+		display: grid;
+		grid-template-areas:
+			"main-right"
+			"main-left";
+	}
+	.main-left {
+		grid-area: main-left;
+		height: 40vh !important;
+	}
+	.main-right {
+		grid-area: main-right;
+		height: 50vh !important;
+	}
+
+	.superiority-row {
+		display: grid;
+		grid-template-areas:
+			"super-right"
+			"super-left";
+	}
+	.superior-left {
+		grid-area: super-left;
+	}
+	.superior-right {
+		grid-area: super-right;
+	}
+
+	.section-text,
+	.superiority-text,
+	.our-team-text {
+		margin-top: 5vh;
+		margin-bottom: 10vh;
+	}
+
+	.get-started-button {
+		width: 30vw;
+	}
+}
