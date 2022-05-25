@@ -1,0 +1,14 @@
+.btn-send {
+    background-color: #F47522;
+    color: #fff;
+}
+.btn-send:hover > .send-mail {
+    display: none;
+}
+.btn-send:hover > .send-mail-hover {
+    display: inline !important;
+}
+.btn-send:hover {
+    background-color: #fff;
+    color: #F47522;
+}
