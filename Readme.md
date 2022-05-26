@@ -4,9 +4,7 @@
 
 ### Link Deployment
 
-```
-https://group-project-1.netlify.app/
-```
+[link deployment](https://group-project-1.netlify.app/)
 
 ### Web Preview
 
