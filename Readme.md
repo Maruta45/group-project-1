@@ -5,7 +5,7 @@
 ### Link Deployment
 
 ```
-link will be added here after deployment success
+https://group-project-1.netlify.app/
 ```
 
 ### Web Preview
@@ -17,7 +17,7 @@ link will be added here after deployment success
 - [x] Make Website using bootstrap framework
 - [x] Slicing same as prototype
 - [x] Make it responsive
-- [ ] Publish it
+- [x] Publish it
 
 ### Division of Tasks
 
