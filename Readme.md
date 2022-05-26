@@ -23,6 +23,7 @@
 
 - home
 - team
+- about (extra)
 
 @Awan
 
